@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: rgb(32, 72, 204);
+   
+}
+nav{
+    background-color: lightskyblue;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section{
+    background-color: lightsteelblue;
+    grid-column: 1/4;
+}
+aside{
+    background-color: linen;
+    grid-column: 4/5;
+}
+
+footer{
+    background-color: sandybrown;
+}
+
+image{
+    float: right; width: 400px; margin: 20px 40px; padding: 5px; border: 1px solid black
+}
